@@ -6,6 +6,7 @@ import CarCatalogue from "./organisms/CarCatalogue";
 import SearchBar from "./molecules/SearchBar";
 import CustomFilter from "./atoms/CustomFilter";
 import SearchManufacturer from "./atoms/SearchManufacturer";
+import CarCard from "./molecules/CarCard";
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   SearchBar,
   CustomFilter,
   SearchManufacturer,
+  CarCard,
 };
