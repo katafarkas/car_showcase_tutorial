@@ -9,6 +9,7 @@ import Gas from "../../public/gas.svg";
 import CustomButton from "../atoms/CustomButton";
 import RightArrow from "../../public/right-arrow.svg";
 import { useState } from "react";
+import CarDetails from "./CarDetails";
 
 interface CarCardProps {
   car: CarProps;
@@ -83,6 +84,12 @@ const CarCard = ({ car }: CarCardProps) => {
           />
         </div>
       </div>
+
+      <CarDetails
+        isOpen={isOpen}
+        closeModal={() => setIsOpen(false)}
+        car={car}
+      />
     </div>
   );
 };
