@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from "../molecules/SearchBar";
 import CustomFilter from "../atoms/CustomFilter";
+import { fuels, yearsOfProduction } from "@/constants";
 
 const CarCatalogue = () => {
   return (
@@ -14,8 +15,8 @@ const CarCatalogue = () => {
         <SearchBar />
 
         <div className="home__filter-container">
-          <CustomFilter />
-          <CustomFilter />
+          <CustomFilter title="fuel" options={fuels}/>
+          <CustomFilter title="year" options={yearsOfProduction}/>
         </div>
       </div>
     </div>
