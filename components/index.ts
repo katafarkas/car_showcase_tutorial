@@ -8,6 +8,7 @@ import CustomFilter from "./atoms/CustomFilter";
 import SearchManufacturer from "./atoms/SearchManufacturer";
 import CarCard from "./molecules/CarCard";
 import CarDetails from "./molecules/CarDetails";
+import ShowMore from "./atoms/ShowMore";
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   SearchManufacturer,
   CarCard,
   CarDetails,
+  ShowMore,
 };
